@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+## Name :PERARASU M
+## Roll no : 212222100033
+
 
 
 
@@ -14,21 +14,21 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
  ## Running the Emulator :
-1.	Download and install emu8086 (www.emu8086.com) It is usually installed in C:\EMU8086 subfolder in the “Windows” directory
-2.	  Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
- 
- 
-3.		write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
+1.	Download and install emu8086 (www.emu8086.com) It is usually installed in C:\EMU8086 subfolder in the “Windows” directory.
 
-4.	 Compile the program and check for the errors 
-5.	Run (once there is no syntax error) 
+2.	Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color. 
+
+3.	Write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations. 
+
+4.	Compile the program and check for the errors. 
+
+5.	Run (once there is no syntax error).
 
 6.	Click OK to see/view the output of your program on the Emulator screen. 
 
+7.	After running the program, another menu screen will be displayed, where you have the option to “View” symbol table.
 
-7.	After running the program, another menu screen will be displayed, where you have the option to “View” symbol table,
 8.	 
-
 
 ![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
 
@@ -42,7 +42,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-9.	Click on emulate to start emulation 
+9.	Click on emulate to start emulation.
 
 
 
@@ -60,7 +60,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below 
+10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below.
 
 
 
@@ -79,24 +79,52 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition  of 8 bit ALP 
 
+```
+MOV AL,88H
+MOV BL,65H
+ADD AL,BL
+HLT
+```
 
+## Output
+![add](https://github.com/user-attachments/assets/7aeb46b3-7ce9-4b45-bad4-2884fccf2c30)
 
-## Output  
  
 ## Subtraction   of 8 bit numbers  ALP 
+```
+MOV AL,84H
+MOV BL,63H
+SUB AL,BL
+HLT
+```
  
 ## Output  
-## Multiplication alp 
- ## Output  
+![sub](https://github.com/user-attachments/assets/7933314d-f7fa-4962-b9ca-96024e97a532)
 
+## Multiplication alp 
+```
+MOV AL,75H
+MOV BL,32H
+MUL BL
+HLT
+```
+ ## Output 
+ 
+![mul](https://github.com/user-attachments/assets/50caa2fe-f694-4ff3-b04d-01ceae7c27af)
 
 ## Division alp 
-
+```
+MOV AL,68H
+MOV BL,18H
+DIV BL
+HLT
+```
 ## Output  
+![div](https://github.com/user-attachments/assets/caaeb63a-13f7-4243-9ffd-178b8695a04b)
 
 
 ## Result :
- 
+Thus to Write and execute ALP on fundamental arithmetic and logical operations are verified successfully using 8086 emulator.
 
 
 
